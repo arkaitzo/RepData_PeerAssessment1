@@ -69,7 +69,7 @@ total.na <- sum(is.na(df$steps))
 ```
 - All the **2304** missing values in the dataset belong to the attribute `steps`.
 
-**2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.**
+**2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.**  
 - Since the average number of steps have already been calculated for all the 5-minute intervals, I'm going to use them to replace the NAs in the `steps` attribute.
 
 **3. Create a new dataset that is equal to the original dataset but with the missing data filled in.**

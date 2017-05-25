@@ -168,7 +168,8 @@ ggplot(data = temp, aes(x = interval, y = steps)) +
 <ul>
 <li>All the <strong>2304</strong> missing values in the dataset belong to the attribute <code>steps</code>.</li>
 </ul>
-<p><strong>2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</strong> - Since the average number of steps have already been calculated for all the 5-minute intervals, I’m going to use them to replace the NAs in the <code>steps</code> attribute.</p>
+<p><strong>2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</strong><br />
+- Since the average number of steps have already been calculated for all the 5-minute intervals, I’m going to use them to replace the NAs in the <code>steps</code> attribute.</p>
 <p><strong>3. Create a new dataset that is equal to the original dataset but with the missing data filled in.</strong></p>
 <pre class="r"><code># Copy the original dataset
 df.new &lt;- df
